@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPW Pinyon Jay Resources</title>
+    <style>
+        /* CPW Color Palette test */
+        :root {
+            --midnight: #07234C;
+            --deep-sky-blue: #0D67B8;
+            --emerald: #055A53;
+            --sunshine: #EAB11E;
+            --pampas: #ECE8E4;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--pampas);
+            color: var(--midnight);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--midnight);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--sunshine);
+        }
+
+        .logo {
+            max-width: 250px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            height: auto; 
+            max-height: none; 
+            object-fit: contain; 
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto 30px auto;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: var(--midnight);
+        }
+
+        .subtitle {
+            font-weight: bold;
+            color: var(--emerald);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+
+        .resource-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        .resource-item {
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--deep-sky-blue);
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            width: 85%;
+            max-width: 500px;
+        }
+
+        .btn:hover {
+            background-color: #0a5191;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-bottom: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="CPW Logo" class="logo">
+    </header>
+
+    <div class="container">
+        <img src="images/pinyon-jay.png" alt="Pinyon Jay" class="hero-img">
+        
+        <h1>Pinyon Jay Resources</h1>
+        <div class="subtitle">Colorado Parks & Wildlife</div>
+        
+        <hr style="border: 0; border-top: 1px solid #ccc; margin: 30px 0;">
+
+        <ul class="resource-list">
+            <li class="resource-item">
+                <a href="2026%20PIJA.pdf" class="btn" target="_blank">View 2026 Pinyon Jay Survey Protocol</a>
+            </li>
+            <li class="resource-item">
+                <a href="CPW%20Draft%20BMPs%20for%20PJA%20Conservation%202026.pdf" class="btn" target="_blank">View Draft 2026 Conservation Guidelines</a>
+            </li>
+              <li class="resource-item">
+                <a href="CPW%20Colony%20Protocol%202026%20with%20flow%20chart.pdf" class="btn" target="_blank">View 2026 Colony Protocol</a>
+            </li>
+        </ul>
+
+        <footer>
+            &copy; 2026 Colorado Parks & Wildlife
+        </footer>
+    </div>
+
+</body>
+</html>
